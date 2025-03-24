@@ -28,6 +28,27 @@ body {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+.popup {
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #FF9000;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+.popup button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: none;
+  background: white;
+  color: #FF9000;
+  cursor: pointer;
+  border-radius: 4px;
+}
 .offcanvas #page {
   overflow: hidden;
   position: absolute;

@@ -147,3 +147,12 @@
 
 
 }());
+
+function showPopup(event) {
+    event.preventDefault();
+    document.getElementById("contactPopup").style.display = "block";
+}
+
+function closePopup() {
+    document.getElementById("contactPopup").style.display = "none";
+}
